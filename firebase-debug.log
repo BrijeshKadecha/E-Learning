@@ -1,0 +1,100 @@
+[debug] [2023-01-16T17:20:57.996Z] ----------------------------------------------------------------------
+[debug] [2023-01-16T17:20:57.998Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\imeda\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-16T17:20:57.998Z] CLI Version:   11.20.0
+[debug] [2023-01-16T17:20:57.998Z] Platform:      win32
+[debug] [2023-01-16T17:20:57.998Z] Node Version:  v16.17.1
+[debug] [2023-01-16T17:20:57.999Z] Time:          Mon Jan 16 2023 18:20:57 GMT+0100 (Central European Standard Time)
+[debug] [2023-01-16T17:20:57.999Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-16T17:20:58.008Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-16T17:20:58.008Z] > authorizing via signed-in user (attia.imeed@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\linkdin\angular-firebase-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-16T17:26:43.419Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-01-16T17:26:44.017Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-01-16T17:26:44.017Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project angular-firebase-attia-imed (AngularFirebaseApp) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2023-01-16T17:26:46.189Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-01-16T17:26:46.189Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/angular-firebase-attia-imed
+[debug] [2023-01-16T17:26:47.248Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com 200
+[debug] [2023-01-16T17:26:47.248Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com [omitted]
+[warn] !  database: missing required API firebasedatabase.googleapis.com. Enabling now... 
+[debug] [2023-01-16T17:26:47.249Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com:enable [none]
+[debug] [2023-01-16T17:26:47.249Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com:enable x-goog-quota-user=projects/angular-firebase-attia-imed
+[debug] [2023-01-16T17:26:49.060Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com:enable 200
+[debug] [2023-01-16T17:26:49.060Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com:enable [omitted]
+[debug] [2023-01-16T17:26:59.070Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-01-16T17:26:59.070Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/angular-firebase-attia-imed
+[debug] [2023-01-16T17:27:00.020Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com 200
+[debug] [2023-01-16T17:27:00.020Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/angular-firebase-attia-imed/services/firebasedatabase.googleapis.com [omitted]
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2023-01-16T17:27:00.025Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/angular-firebase-attia-imed [none]
+[debug] [2023-01-16T17:27:00.369Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/angular-firebase-attia-imed 200
+[debug] [2023-01-16T17:27:00.369Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/angular-firebase-attia-imed {"projectId":"angular-firebase-attia-imed","projectNumber":"606451779781","displayName":"AngularFirebaseApp","name":"projects/angular-firebase-attia-imed","resources":{"hostingSite":"angular-firebase-attia-imed"},"state":"ACTIVE","etag":"1_4a6b38f6-faea-4cd9-b551-96e39ee97306"}
+[debug] [2023-01-16T17:27:21.138Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/angular-firebase-attia-imed/locations/europe-west1/instances databaseId=angular-firebase-attia-imed-default-rtdb&validateOnly=true
+[debug] [2023-01-16T17:27:21.138Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/angular-firebase-attia-imed/locations/europe-west1/instances {"type":"default_database"}
+[debug] [2023-01-16T17:27:21.896Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/angular-firebase-attia-imed/locations/europe-west1/instances 200
+[debug] [2023-01-16T17:27:21.896Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/angular-firebase-attia-imed/locations/europe-west1/instances {"name":"projects/606451779781/locations/europe-west1/instances/angular-firebase-attia-imed-default-rtdb","project":"projects/606451779781","databaseUrl":"https://angular-firebase-attia-imed-default-rtdb.europe-west1.firebasedatabase.app","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[debug] [2023-01-16T17:27:21.898Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/angular-firebase-attia-imed/locations/europe-west1/instances databaseId=angular-firebase-attia-imed-default-rtdb
+[debug] [2023-01-16T17:27:21.898Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/angular-firebase-attia-imed/locations/europe-west1/instances {"type":"default_database"}
+[debug] [2023-01-16T17:27:22.881Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/angular-firebase-attia-imed/locations/europe-west1/instances 200
+[debug] [2023-01-16T17:27:22.882Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/angular-firebase-attia-imed/locations/europe-west1/instances {"name":"projects/606451779781/locations/europe-west1/instances/angular-firebase-attia-imed-default-rtdb","project":"projects/606451779781","databaseUrl":"https://angular-firebase-attia-imed-default-rtdb.europe-west1.firebasedatabase.app","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2023-01-16T17:27:28.565Z] >>> [apiv2][query] GET https://angular-firebase-attia-imed-default-rtdb.europe-west1.firebasedatabase.app/.settings/rules.json [none]
+[debug] [2023-01-16T17:27:29.806Z] <<< [apiv2][status] GET https://angular-firebase-attia-imed-default-rtdb.europe-west1.firebasedatabase.app/.settings/rules.json 200
+[debug] [2023-01-16T17:27:29.806Z] <<< [apiv2][body] GET https://angular-firebase-attia-imed-default-rtdb.europe-west1.firebasedatabase.app/.settings/rules.json [stream]
+[info] +  Database Rules for angular-firebase-attia-imed-default-rtdb have been written to database.rules.json. 
+[info] Future modifications to database.rules.json will update Realtime Database Security Rules when you run
+[info] firebase deploy.
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-01-16T17:30:19.954Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-01-16T17:30:20.252Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-01-16T17:30:20.252Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.15.0","browserURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.tgz"},"live":{"version":"9.15","browserURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.15.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.15.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.15.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.memory.js"}}
+[info] +  Wrote dist/angular-firebase-app/index.html 
+[info] 
+[info] i  Detected a .git folder at E:\linkdin\angular-firebase-app 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=780681929&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-01-16T17:30:21.031Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-01-16T17:30:21.031Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-01-16T17:30:21.454Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-01-16T17:30:21.454Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-01-16T17:30:21.458Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-01-16T17:30:21.933Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-01-16T17:30:21.933Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"ImeedAttia","id":109033633,"node_id":"U_kgDOBn-4oQ","avatar_url":"https://avatars.githubusercontent.com/u/109033633?v=4","gravatar_id":"","url":"https://api.github.com/users/ImeedAttia","html_url":"https://github.com/ImeedAttia","followers_url":"https://api.github.com/users/ImeedAttia/followers","following_url":"https://api.github.com/users/ImeedAttia/following{/other_user}","gists_url":"https://api.github.com/users/ImeedAttia/gists{/gist_id}","starred_url":"https://api.github.com/users/ImeedAttia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ImeedAttia/subscriptions","organizations_url":"https://api.github.com/users/ImeedAttia/orgs","repos_url":"https://api.github.com/users/ImeedAttia/repos","events_url":"https://api.github.com/users/ImeedAttia/events{/privacy}","received_events_url":"https://api.github.com/users/ImeedAttia/received_events","type":"User","site_admin":false,"name":"Attia Imed","company":"Freelance","blog":"https://sites.google.com/view/attia-imed-portfolio/","location":"Tunisie,Manouba","email":null,"hireable":null,"bio":"Web developer\r\nFront-end Developer\r\nBack-end Developer\r\nJava Programmer","twitter_username":null,"public_repos":24,"public_gists":0,"followers":0,"following":3,"created_at":"2022-07-10T15:29:11Z","updated_at":"2023-01-13T17:33:47Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":58068,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as ImeedAttia 
+[info] 

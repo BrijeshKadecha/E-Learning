@@ -2,26 +2,73 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
-## Development server
+In this presentation, I will provide instructions for setting up Angular for you. As well as Firebase integration with angular application and deployment of angular application to firebase hosting.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<!-- GETTING STARTED -->
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  
 
-## Running unit tests
+This is an example of how you may give instructions on setting up our project locally.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To get a local copy up and running follow these simple example steps.
 
-## Running end-to-end tests
+  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Prerequisites
 
-## Further help
+  
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This is an example of how to list things you need to use the software and how to install them.
+
+* npm
+
+```sh
+
+npm install npm@latest -g
+
+```
+
+  
+
+### Installation
+
+  
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+  
+
+
+2. Clone the repo
+
+```sh
+
+git clone https://github.com/ImeedAttia/apact.tn.git
+
+```
+
+3. Install NPM packages
+
+```sh
+
+npm install
+
+```
+
+4. Run the app 
+
+```js
+
+ng serve -o
+
+```
+  
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+

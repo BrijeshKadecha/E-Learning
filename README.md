@@ -47,7 +47,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ```sh
 
-git clone https://github.com/ImeedAttia/apact.tn.git
+git clone https://github.com/ImeedAttia/angular-firebase-app.git
 
 ```
 
@@ -67,8 +67,4 @@ ng serve -o
 
 ```
   
-
-<!-- CONTRIBUTING -->
-
-## Contributing
 

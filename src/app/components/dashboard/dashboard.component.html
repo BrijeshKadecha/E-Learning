@@ -1,46 +1,25 @@
 <!-- Top navigation -->
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <!-- Container wrapper -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="https://firebasestorage.googleapis.com/v0/b/angular-firebase-attia-imed.appspot.com/o/imed.png?alt=media&token=67b75a7f-5f5d-4149-9274-d966b491c2fe"
+      alt="Logo" width="30" height="24">
+    </a>
+  </div>
   <div class="container-fluid">
-    <!-- Toggle button -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-mdb-toggle="collapse"
-      data-mdb-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <i class="fas fa-bars"></i>
+    <a class="navbar-brand" href="#">Dashboard</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Navbar brand -->
-      <a class="navbar-brand mt-2 mt-lg-0" href="#">
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/angular-firebase-attia-imed.appspot.com/o/imed.png?alt=media&token=67b75a7f-5f5d-4149-9274-d966b491c2fe"
-          height="15"
-          alt="Logo"
-          loading="lazy"
-        />
-      </a>
-      <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Dashboard</a>
+          <a class="nav-link" href="#" (click)="authService.Logout()">Logout</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" (click)="authService.Logout()" >LogOut</a>
-        </li>
-      </ul>
-      <!-- Left links -->
+        </ul>
     </div>
-    <!-- Collapsible wrapper -->
   </div>
-  <!-- Container wrapper -->
 </nav>
 <!-- Navbar -->
 <!-- Sidebar navigation -->

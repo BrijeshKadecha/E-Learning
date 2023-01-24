@@ -5,7 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 In this presentation, I will provide instructions for setting up Angular for you. As well as Firebase integration with angular application and deployment of angular application to firebase hosting.
 
 [See article on Linkedin Part 1 (Deployement)](https://www.linkedin.com/pulse/deploy-angular-14-application-firebase-attia-imed)
-[See article on Linkedin Part 2 (Authentication System)](https://www.linkedin.com/pulse/deploy-angular-14-application-firebase-attia-imed)
+<br />
+[See article on Linkedin Part 2 (Authentication System)](https://www.linkedin.com/pulse/angular-14-firebase-authentication-tutorial-attia-imed)
 
 
 <!-- GETTING STARTED -->
